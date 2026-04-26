@@ -1213,7 +1213,8 @@ em {
   .portfolio-item--wide { grid-column: span 2; }
   .portfolio-item--tall { grid-row: span 1; }
 
-  .contact__ctas { flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .contact__ctas { flex-wrap: nowrap; justify-content: center; gap: 8px; }
+  .contact__ctas .btn { flex: 1; padding: 12px 10px; font-size: 0.75rem; white-space: nowrap; justify-content: center; }
 
   .footer__inner { flex-direction: column; align-items: center; text-align: center; gap: 8px; }
   .footer__right { text-align: center; }
